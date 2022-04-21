@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render snapshot 1`] = `
+<View
+  accessible={false}
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+  testID="View_Text"
+>
+  <Text
+    accessible={false}
+    color="#000000"
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontSize": 12,
+        },
+      ]
+    }
+    testID="Text_Text_Content_Text"
+  >
+    Test
+  </Text>
+</View>
+`;

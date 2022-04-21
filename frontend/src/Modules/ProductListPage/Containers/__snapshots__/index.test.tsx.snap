@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductListPage should render snapshot 1`] = `
+Array [
+  <View
+    accessible={false}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0.3)",
+          "display": "flex",
+          "height": "100%",
+          "justifyContent": "center",
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 5,
+        },
+      ]
+    }
+    testID="View_Vitrine_LoaderContent"
+  >
+    <ActivityIndicator
+      accessible={false}
+      animating={true}
+      color="#FFFF"
+      hidesWhenStopped={true}
+      size={25}
+      style={
+        Array [
+          Object {},
+        ]
+      }
+      testID="ActivityIndicator_Vitrine_LoaderContent_Content_LoadingIndicator"
+    />
+  </View>,
+  <RCTScrollView
+    ListHeaderComponent={
+      <React.Fragment>
+        <SpacerView
+          max={16}
+          min={16}
+          testID="Vitrine_Content_Spacer"
+        />
+        <Styled(FlatList)
+          ItemSeparatorComponent={[Function]}
+          data={Array []}
+          keyExtractor={[Function]}
+          onEndReached={[Function]}
+          onEndReachedThreshold={0.5}
+          renderItem={[Function]}
+          testID="Vitrine_Content_List"
+        />
+        <SpacerView
+          max={16}
+          min={16}
+          testID="Vitrine_Content_Spacer_2"
+        />
+      </React.Fragment>
+    }
+    accessible={false}
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFF",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+    testID="List_Vitrine_Content"
+    themeSelector="default"
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          accessible={false}
+          max={16}
+          min={16}
+          style={
+            Array [
+              Object {
+                "flexGrow": 1,
+                "maxHeight": 16,
+                "minHeight": 16,
+              },
+            ]
+          }
+          testID="View_Vitrine_Content_Spacer"
+        />
+        <View
+          ItemSeparatorComponent={[Function]}
+          data={Array []}
+          disableVirtualization={false}
+          getItem={[Function]}
+          getItemCount={[Function]}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          onContentSizeChange={[Function]}
+          onEndReached={[Function]}
+          onEndReachedThreshold={0.5}
+          onLayout={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          style={
+            Array [
+              Object {
+                "paddingHorizontal": 16,
+              },
+            ]
+          }
+          testID="Vitrine_Content_List"
+          updateCellsBatchingPeriod={50}
+          viewabilityConfigCallbackPairs={Array []}
+          windowSize={21}
+        />
+        <View
+          accessible={false}
+          max={16}
+          min={16}
+          style={
+            Array [
+              Object {
+                "flexGrow": 1,
+                "maxHeight": 16,
+                "minHeight": 16,
+              },
+            ]
+          }
+          testID="View_Vitrine_Content_Spacer_2"
+        />
+      </View>
+    </View>
+  </RCTScrollView>,
+]
+`;

@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail should render snapshot 1`] = `
+<RCTScrollView
+  ListHeaderComponent={
+    <React.Fragment>
+      <Styled(View)
+        accessible={false}
+        testID="View_Detail_Container_Content"
+        themeSelector="default"
+      >
+        <SpacerView
+          max={16}
+          min={16}
+          testID="Detail_Container_Content_Spacer"
+        />
+        <Styled(Image)
+          accessible={false}
+          resizeMode="stretch"
+          source={
+            Object {
+              "uri": "http://localhost:3000/assets/vehicle_image-155fa5ae-00a0-11ea-84e3-4371baa68b28.jpg",
+            }
+          }
+          testID="Image_Detail_Container_Content_Image"
+          themeSelector="default"
+        />
+        <SpacerView
+          max={20}
+          min={20}
+          testID="Detail_Container_Content_Spacer_1"
+        />
+        <Styled(View)
+          accessible={false}
+          testID="View_Detail_Container_Content_ContentInfo"
+        >
+          <Styled(View)
+            accessible={false}
+            testID="View_Detail_Container_Content_ContentInfo_ContentTextIdentifier"
+          >
+            <Component
+              fontSize={12}
+              label="ID: 155fa5ae-00a0-11ea-84e3-4371baa68b28"
+              testID="Detail_Container_Content_ContentInfo_ContentTextIdentifier_Text"
+            />
+          </Styled(View)>
+          <Styled(View)
+            accessible={false}
+            testID="View_Detail_Container_Content_ContentInfo_ContentHr"
+            themeSelector="default"
+          />
+          <SpacerView
+            max={5}
+            min={5}
+            testID="Detail_Container_Content_ContentInfo_Spacer"
+          />
+          <Component
+            fontSize={20}
+            label="Make: Audi"
+            testID="Detail_Container_Content_ContentInfo_Text"
+          />
+          <SpacerView
+            max={5}
+            min={5}
+            testID="Detail_Container_Content_ContentInfo_Spacer_1"
+          />
+          <Component
+            fontSize={20}
+            label="Model: RS7 4.0"
+            testID="Detail_Container_Content_ContentInfo_Text_1"
+          />
+          <SpacerView
+            max={5}
+            min={5}
+            testID="Detail_Container_Content_ContentInfo_Spacer_2"
+          />
+          <Component
+            fontSize={20}
+            label="Year: 2015"
+            testID="Detail_Container_Content_ContentInfo_Text_2"
+          />
+        </Styled(View)>
+      </Styled(View)>
+    </React.Fragment>
+  }
+  accessible={false}
+  data={Array []}
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFF",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+  testID="List_Detail_Container"
+  themeSelector="default"
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        accessible={false}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFF",
+              "display": "flex",
+              "flexDirection": "column",
+            },
+          ]
+        }
+        testID="View_Detail_Container_Content"
+        themeSelector="default"
+      >
+        <View
+          accessible={false}
+          max={16}
+          min={16}
+          style={
+            Array [
+              Object {
+                "flexGrow": 1,
+                "maxHeight": 16,
+                "minHeight": 16,
+              },
+            ]
+          }
+          testID="View_Detail_Container_Content_Spacer"
+        />
+        <Image
+          accessible={false}
+          resizeMode="stretch"
+          source={
+            Object {
+              "uri": "http://localhost:3000/assets/vehicle_image-155fa5ae-00a0-11ea-84e3-4371baa68b28.jpg",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#9F9F9F",
+                "display": "flex",
+                "height": 421.875,
+                "width": "100%",
+              },
+            ]
+          }
+          testID="Image_Detail_Container_Content_Image"
+          themeSelector="default"
+        />
+        <View
+          accessible={false}
+          max={20}
+          min={20}
+          style={
+            Array [
+              Object {
+                "flexGrow": 1,
+                "maxHeight": 20,
+                "minHeight": 20,
+              },
+            ]
+          }
+          testID="View_Detail_Container_Content_Spacer_1"
+        />
+        <View
+          accessible={false}
+          style={
+            Array [
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "paddingHorizontal": 16,
+              },
+            ]
+          }
+          testID="View_Detail_Container_Content_ContentInfo"
+        >
+          <View
+            accessible={false}
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-end",
+                  "display": "flex",
+                  "width": "100%",
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_ContentTextIdentifier"
+          >
+            <View
+              accessible={false}
+              style={
+                Array [
+                  Object {
+                    "display": "flex",
+                  },
+                ]
+              }
+              testID="View_Detail_Container_Content_ContentInfo_ContentTextIdentifier_Text"
+            >
+              <Text
+                accessible={false}
+                color="#000000"
+                fontSize={12}
+                style={
+                  Array [
+                    Object {
+                      "color": "#000000",
+                      "fontSize": 12,
+                    },
+                  ]
+                }
+                testID="Text_Detail_Container_Content_ContentInfo_ContentTextIdentifier_Text_Content_Text"
+              >
+                ID: 155fa5ae-00a0-11ea-84e3-4371baa68b28
+              </Text>
+            </View>
+          </View>
+          <View
+            accessible={false}
+            style={
+              Array [
+                Object {
+                  "borderColor": "#9F9F9F",
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "width": "100%",
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_ContentHr"
+            themeSelector="default"
+          />
+          <View
+            accessible={false}
+            max={5}
+            min={5}
+            style={
+              Array [
+                Object {
+                  "flexGrow": 1,
+                  "maxHeight": 5,
+                  "minHeight": 5,
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_Spacer"
+          />
+          <View
+            accessible={false}
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_Text"
+          >
+            <Text
+              accessible={false}
+              color="#000000"
+              fontSize={20}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 20,
+                  },
+                ]
+              }
+              testID="Text_Detail_Container_Content_ContentInfo_Text_Content_Text"
+            >
+              Make: Audi
+            </Text>
+          </View>
+          <View
+            accessible={false}
+            max={5}
+            min={5}
+            style={
+              Array [
+                Object {
+                  "flexGrow": 1,
+                  "maxHeight": 5,
+                  "minHeight": 5,
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_Spacer_1"
+          />
+          <View
+            accessible={false}
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_Text_1"
+          >
+            <Text
+              accessible={false}
+              color="#000000"
+              fontSize={20}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 20,
+                  },
+                ]
+              }
+              testID="Text_Detail_Container_Content_ContentInfo_Text_1_Content_Text"
+            >
+              Model: RS7 4.0
+            </Text>
+          </View>
+          <View
+            accessible={false}
+            max={5}
+            min={5}
+            style={
+              Array [
+                Object {
+                  "flexGrow": 1,
+                  "maxHeight": 5,
+                  "minHeight": 5,
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_Spacer_2"
+          />
+          <View
+            accessible={false}
+            style={
+              Array [
+                Object {
+                  "display": "flex",
+                },
+              ]
+            }
+            testID="View_Detail_Container_Content_ContentInfo_Text_2"
+          >
+            <Text
+              accessible={false}
+              color="#000000"
+              fontSize={20}
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontSize": 20,
+                  },
+                ]
+              }
+              testID="Text_Detail_Container_Content_ContentInfo_Text_2_Content_Text"
+            >
+              Year: 2015
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

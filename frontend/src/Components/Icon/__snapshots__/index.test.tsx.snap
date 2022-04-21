@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render snapshot 1`] = `
+<View
+  accessible={false}
+  color="white"
+  name="star"
+  size={23}
+  testID="View_Icon"
+/>
+`;

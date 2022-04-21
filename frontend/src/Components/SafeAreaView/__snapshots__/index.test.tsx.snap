@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SafeAreaView should render snapshot 1`] = `
+<RNCSafeAreaView
+  accessible={false}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#FFFF",
+        "display": "flex",
+        "height": "100%",
+        "width": "100%",
+      },
+    ]
+  }
+  testID="View_SafeAreaView"
+  themeSelector="default"
+/>
+`;

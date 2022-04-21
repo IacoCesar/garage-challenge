@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cars api should create a new post in favorite car 1`] = `"Successful favorited car!"`;
+
+exports[`cars api should create a new post in unfavorite car 1`] = `"Successful unfavorited car!"`;
+
+exports[`cars api should get cars in api 1`] = `
+Array [
+  Object {
+    "id": "155fa5ae-00a0-11ea-84e3-4371baa68b28",
+    "image": Object {
+      "url": "/assets/vehicle_image-155fa5ae-00a0-11ea-84e3-4371baa68b28.jpg",
+    },
+    "make": "Audi",
+    "model": "RS7 4.0",
+    "year": 2015,
+  },
+  Object {
+    "id": "206b3cd8-00a0-11ea-a1de-278776d54145",
+    "image": Object {
+      "url": "/assets/vehicle_image-206b3cd8-00a0-11ea-a1de-278776d54145.jpg",
+    },
+    "make": "Audi",
+    "model": "A6 50",
+    "year": 2013,
+  },
+  Object {
+    "id": "2b301b3e-00a0-11ea-a1df-d319b5694f62",
+    "image": Object {
+      "url": "/assets/vehicle_image-2b301b3e-00a0-11ea-a1df-d319b5694f62.jpg",
+    },
+    "make": "Mercedes",
+    "model": "G-klasse 300",
+    "year": 2011,
+  },
+  Object {
+    "id": "329ca892-00a0-11ea-a1e0-87df99c1daef",
+    "image": Object {
+      "url": "/assets/vehicle_image-329ca892-00a0-11ea-a1e0-87df99c1daef.jpg",
+    },
+    "make": "Bugatti",
+    "model": "EB Veyron 16.4 SS",
+    "year": 2015,
+  },
+  Object {
+    "id": "3e33a386-00a0-11ea-a1e1-33fd4292aab9",
+    "image": Object {
+      "url": "/assets/vehicle_image-3e33a386-00a0-11ea-a1e1-33fd4292aab9.jpg",
+    },
+    "make": "Porsche",
+    "model": "911 GT3 RS",
+    "year": 2019,
+  },
+  Object {
+    "id": "46a17a48-00a0-11ea-a1e2-f7e8d4c242d7",
+    "image": Object {
+      "url": "/assets/vehicle_image-46a17a48-00a0-11ea-a1e2-f7e8d4c242d7.jpg",
+    },
+    "make": "Porsche",
+    "model": "959 2.9",
+    "year": 2015,
+  },
+  Object {
+    "id": "dc0e179c-ec34-11e9-9a17-2b1a8ae7aa78",
+    "image": Object {
+      "url": "/assets/vehicle_image-dc0e179c-ec34-11e9-9a17-2b1a8ae7aa78.jpg",
+    },
+    "make": "Audi",
+    "model": "Q2 Sport Tfsi",
+    "year": 2017,
+  },
+  Object {
+    "id": "5e87ec18-d469-11e9-a665-876511f53dc2",
+    "image": Object {
+      "url": "/assets/vehicle_image-5e87ec18-d469-11e9-a665-876511f53dc2.jpg",
+    },
+    "make": "Mercedes",
+    "model": "S63",
+    "year": 2019,
+  },
+  Object {
+    "id": "dd23c210-cafd-11e9-96b5-4b562b719823",
+    "image": Object {
+      "url": "/assets/vehicle_image-dd23c210-cafd-11e9-96b5-4b562b719823.jpg",
+    },
+    "make": "Mercedes",
+    "model": "E-type 3.8",
+    "year": 1961,
+  },
+  Object {
+    "id": "b8ee783a-c8ce-11e9-8654-1fdda1b36688",
+    "image": Object {
+      "url": "/assets/vehicle_image-b8ee783a-c8ce-11e9-8654-1fdda1b36688.jpg",
+    },
+    "make": "Cougar",
+    "model": "Cougar R-Code",
+    "year": 1968,
+  },
+  Object {
+    "id": "590679fe-c8ce-11e9-a7fd-d784ecefb016",
+    "image": Object {
+      "url": "/assets/vehicle_image-590679fe-c8ce-11e9-a7fd-d784ecefb016.jpg",
+    },
+    "make": "Mercedes",
+    "model": "190 SL 1.9",
+    "year": 1955,
+  },
+]
+`;
+
+exports[`cars api should get favorited cars list 1`] = `
+Array [
+  Object {
+    "carId": 1,
+  },
+]
+`;

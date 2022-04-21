@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spacer should render snapshot 1`] = `
+<View
+  accessible={false}
+  max={20}
+  min={20}
+  style={
+    Array [
+      Object {
+        "flexGrow": 1,
+        "maxHeight": 20,
+        "minHeight": 20,
+      },
+    ]
+  }
+  testID="View_Spacer"
+/>
+`;

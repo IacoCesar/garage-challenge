@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoaderContent should render snapshot 1`] = `
+<View
+  accessible={false}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.3)",
+        "display": "flex",
+        "height": "100%",
+        "justifyContent": "center",
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 5,
+      },
+    ]
+  }
+  testID="View_LoaderContent"
+>
+  <ActivityIndicator
+    accessible={false}
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size={23}
+    style={
+      Array [
+        Object {},
+      ]
+    }
+    testID="ActivityIndicator_LoaderContent_Content_LoadingIndicator"
+  />
+</View>
+`;
